@@ -1,3 +1,6 @@
 node_modules
+obj
 typings/index.d.typings
 typings/globals
+test
+*.js

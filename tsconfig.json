@@ -3,11 +3,12 @@
       "target": "ES6",
       "module": "commonjs",
       "moduleResolution": "node",
-      "allowJs": true
+      "allowJs": true,
+      "outDir": "obj"
   },
   "files": [
-      "index.ts",
-      "midiHandler.ts",
+      "src/index.ts",
+      "src/midiHandler.ts",
       "typings/midi.d.ts"
   ]
 }

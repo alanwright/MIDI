@@ -1,8 +1,8 @@
 {
-  "name": "pbi-midi",
+  "name": "midi-realtime",
   "version": "1.0.0",
-  "description": "power bi midi playground",
-  "main": "index.js",
+  "description": "midi realtime playground",
+  "main": "obj/index.js",
   "dependencies": {
     "pubnub": "^4.13.0",
     "typescript": "^2.4.2",
@@ -16,7 +16,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "setup": "npm install",
     "build": "tsc",
-    "run": "node index.js"
+    "run": "node obj/index.js"
   },
   "keywords": [
     "midi",
