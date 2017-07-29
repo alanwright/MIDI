@@ -6,8 +6,7 @@
   "dependencies": {
     "pubnub": "^4.13.0",
     "typescript": "^2.4.2",
-    "typings": "^2.1.1",
-    "web-midi-api": "^1.4.4"
+    "typings": "^2.1.1"
   },
   "devDependencies": {
     "@types/node": "^8.0.17"

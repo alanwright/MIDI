@@ -23,7 +23,7 @@ class MIDIHandler implements IMIDIHandler {
         for (let input = inputs.next(); input && !input.done; input = inputs.next()) {
             let midiInput = input.value;
             midiInput.onmidimessage = (e) => this.onMIDIMessage(e);
-
+            
             console.log("Input port : [ type:'" + midiInput.type + "' id: '" + midiInput.id +
                 "' manufacturer: '" + midiInput.manufacturer + "' name: '" + midiInput.name +
                 "' version: '" + midiInput.version + "']");
