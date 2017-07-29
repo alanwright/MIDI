@@ -1,0 +1,27 @@
+{
+  "name": "pbi-midi",
+  "version": "1.0.0",
+  "description": "power bi midi playground",
+  "main": "index.js",
+  "dependencies": {
+    "pubnub": "^4.13.0",
+    "typescript": "^2.4.2",
+    "typings": "^2.1.1",
+    "web-midi-api": "^1.4.4"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.17"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "setup": "npm install",
+    "build": "tsc",
+    "run": "node index.js"
+  },
+  "keywords": [
+    "midi",
+    "pbi"
+  ],
+  "author": "Alan",
+  "license": "MIT"
+}
